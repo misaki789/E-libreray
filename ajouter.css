@@ -1,0 +1,120 @@
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,.9);
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+
+}
+
+.login-form-contairer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,.9);
+    position: fixed;
+    top: 0;
+    right:-100%;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+.login-form-contairer.active , .login-form.active{
+    right: 0;
+}
+.login-form form{
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,.1);
+    width: 10rem;
+    padding: 2px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.login-form-contairer form , .login-form form{
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,.1);
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.login-form-contairer form h3 ,.login-form form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+.login-form-contairer form span , .login-form form span{
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.login-form-contairer form .box , .login-form form .box{
+    width: 95%;
+    margin: .2rem 0;
+    font-size: 1.6rem;
+    border: .1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding: 1rem 1.2rem;
+    color: black;
+    text-transform: none;
+}
+
+.login-form-contairer form .checkbox , .login-form form .checkbox{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+}
+
+.login-form-contairer form .checkbox label , .login-form form .checkbox label{
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+}
+.login-form-contairer form .btn , .login-form .btn{
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.login-form-contairer form p , .login-form p{
+    padding-top: .8rem;
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.login-form-contairer form p a , .login-form p a {
+    color: #c113be;
+    text-decoration: underline;
+}
+
+.login-form-contairer #close-login-btn , .login-form  #close-login-btn{
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    color: black;
+    cursor: pointer;
+}
+
+.btn{
+    margin: 1rem;
+    display: inline-block;
+    padding: 1rem 1rem ;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: #c113be;
+    font-size: 1.76rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #5c055b;
+}
